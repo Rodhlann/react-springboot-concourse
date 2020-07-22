@@ -24,6 +24,5 @@ jobs:
             args:
               - -c
               - |
-                cd git-repo
-                yarn
-                yarn build
+                cd git-repo/server
+                ./gradlew build
