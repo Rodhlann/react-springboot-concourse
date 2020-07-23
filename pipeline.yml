@@ -24,5 +24,5 @@ jobs:
             args:
               - -c
               - |
-                cd git-repo/server
+                cd git-repo
                 ./gradlew build
